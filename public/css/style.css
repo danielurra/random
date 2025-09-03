@@ -1,0 +1,58 @@
+body {
+  background-color: #f9fafc;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f0f8ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+.highlight {
+  color: #007acc;
+}
+.dice-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+.dice-img {
+  width: 48px; /* The image is set to 48x48px with the .dice-img class to match the random number text size. */
+  height: 48px;
+}
+.random-number {
+  font-size: 48px;
+  color: #d6336c;
+  margin: 0;
+}
+.refresh-info {
+  font-size: 18px;
+  color: #555;
+}
+.tip {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #888;
+}
+
+.example-image-container {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.example-img {
+  width: 600px;
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}

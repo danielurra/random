@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Random Number Generator</title>
+      <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+      <div class="container">
+        <p class="title">
+          Random number between <span class="highlight">1</span> and 
+          <span class="highlight"><%= maxNumber %></span> (inclusive):
+        </p>
+        <div class="dice-row">
+          <h1 class="random-number"><%= randomNumber %></h1>
+          <img src="/img/six-sided-dice-330x330px.png" alt="Dice" class="dice-img" />
+        </div>
+        <h2 class="refresh-info">🔄 Refresh the page (F5) to generate a new random number</h2>
+        <p class="tip">💡 Tip: Press <strong>Ctrl + F5</strong> to refresh and <strong>clear the browser cache</strong>.</p>
+      </div>
+    </body>
+</html>

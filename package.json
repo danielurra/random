@@ -1,0 +1,17 @@
+{
+  "name": "random.ciscoar.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "p3044_random.js",
+  "scripts": {
+    "start": "node p3044_random.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

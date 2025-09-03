@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+
+# PM2 runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+.pm2/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: lock file if you want npm to regenerate
+# package-lock.json
